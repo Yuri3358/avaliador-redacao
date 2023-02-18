@@ -3,10 +3,6 @@ header {
     text-align: center;
 }
 
-p {
-    text-align: center;
-}
-
 ul, .anchors {
     color: white;
 }
@@ -20,6 +16,7 @@ ul, .anchors {
 }
 
 .links {
+    text-align: center;
     display: inline;
     margin-left: 10px;
     border-radius: 4px;
