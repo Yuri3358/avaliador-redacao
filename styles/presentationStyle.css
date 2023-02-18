@@ -1,19 +1,16 @@
-body {
-    background-color: rgb(204, 120, 17);
-}
-
 #card-box {
     margin: auto;
     background-color: #292B2F;
     width: 14cm;
-    height: 9.5cm;
+    height: 10cm;
     color: white;
     border-radius: 6px;
     padding: 10px;
 }
 
 #username {
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 #picture {
