@@ -14,7 +14,6 @@ const cardComponent = {
             .then(res => res.json())
             .then(output => {
                 this.creatorData = output
-                console.log(this.creatorData)
             })
         }
     }
