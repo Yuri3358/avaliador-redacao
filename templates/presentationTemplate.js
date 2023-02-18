@@ -1,7 +1,7 @@
 const cardTemplate = `
         <div id="card-box">
             <div id="picture">
-                <img id="username-picture" height=100 width="100" :src="creatorData.avatar_url"><img/>        
+                <img id="username-picture" height=130 width="130" :src="creatorData.avatar_url"><img/>        
                 <p id="username">{{ creatorData.login }}</p>
             </div>
             <hr/>
