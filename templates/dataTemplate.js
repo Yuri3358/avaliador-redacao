@@ -1,0 +1,5 @@
+const dataTemplate = {
+
+}
+
+exports = {dataTemplate}

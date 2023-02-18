@@ -1,0 +1,5 @@
+const formsComponent = {
+
+}
+
+exports = {formsComponent}
