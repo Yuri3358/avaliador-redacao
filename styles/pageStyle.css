@@ -1,0 +1,26 @@
+header {
+    background-color: rgb(0, 0, 176);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+ul, .anchors {
+    color: white;
+}
+
+#brand {
+    float: left;
+}
+
+#author {
+    float: right;
+}
+
+.links {
+    display: inline;
+    margin-left: 10px;
+    border-radius: 4px;
+}
