@@ -1,0 +1,21 @@
+const pageTemplate = `
+    <header>
+        <ul>
+            <h2 id="brand">Avaliador ENEM</h2>
+            <p class="links">
+                <a class="btn btn-outline anchors" href="#/lista">Redatores</a>
+            </p>
+
+            <p class="links">
+                <a class="btn btn-outline anchors" href="#/cadastro">Registrar Redação</a>            
+            </p>
+
+            <h3 id="author">
+                <a class="btn btn-outline anchors" href="#/aboutme">Made by Yuri</a>            
+            </h3>
+        </ul>
+    </header>
+`
+
+
+exports = {pageTemplate}
