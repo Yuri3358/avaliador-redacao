@@ -1,5 +1,5 @@
 const formsTemplate = `
-    <div id="form-box">
+    <div id="form-box" @keyup.enter="saveEssay">
         <h1>Registrar Redator</h1>
         
         <label for="name">Autor</label>
