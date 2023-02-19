@@ -1,0 +1,28 @@
+.table {
+    text-align: center;
+    background-color: whitesmoke;
+    width: 30cm;
+    margin: auto;
+    border: 2px ridge black;
+}
+
+#authors-header {
+    color: white;
+}
+
+thead {
+    background-color: rgb(63, 63, 70);
+    font-size: 16px
+}
+
+th {
+    color: white;
+}
+
+td {
+    font-size: 14px;
+}
+
+#authors-header {
+    text-align: center;
+}
