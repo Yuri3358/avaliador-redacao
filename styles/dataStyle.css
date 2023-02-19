@@ -26,3 +26,16 @@ td {
 #authors-header {
     text-align: center;
 }
+
+@media (max-width: 700px) {
+    .table {
+        width: 7.4cm;
+        height: 10cm;
+    }
+    thead {
+        font-size: 10px
+    }
+    td {
+        font-size: 8px;
+    }
+}
