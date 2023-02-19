@@ -1,6 +1,7 @@
 const app = Vue.createApp({})
 
 const routes = [
+    {path: "/", component: dataComponent},
     {path: "/cadastro", component: formsComponent},
     {path: "/lista", component: dataComponent},
     {path: "/aboutme", component: cardComponent}
