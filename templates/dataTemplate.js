@@ -1,5 +1,5 @@
 const dataTemplate = `
-    <h1 id="authors-header">Lista de Redatores</h1>
+    <h1 id="authors-header">Lista de Redatores ({{ authors.length }})</h1>
     <table class="table">
         <thead>
             <th>Autor</th>
