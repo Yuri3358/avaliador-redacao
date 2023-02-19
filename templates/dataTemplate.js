@@ -4,10 +4,10 @@ const dataTemplate = `
         <thead>
             <th>Autor</th>
             <th>Escrita Formal</th>
-            <th>Compreensão do Tema</th>
+            <th>Comp. Tema</th>
             <th>Coerência Textual</th>
-            <th>Mecanismos Linguísticos</th>
-            <th>Direitos Humanos</th>
+            <th>Mec. Ling.</th>
+            <th>Dir. Humanos</th>
             <th>Média Final</th>
         </thead>
 
