@@ -18,6 +18,12 @@ const dataComponent = {
                     this.authors.sort((a, b) => a.name.localeCompare(b.name))
                 })
             })
+        },
+        sortByName() {
+            this.authors.sort((a, b) => a.name.localeCompare(b.name))
+        },
+        sortByScore() {
+            this.authors.sort((a, b) => b.media_final - a.media_final)
         }
     }
 }

@@ -2,13 +2,13 @@ const dataTemplate = `
     <h1 id="authors-header">Lista de Redatores ({{ authors.length }})</h1>
     <table class="table">
         <thead>
-            <th>Autor</th>
+            <th @click="sortByName">Autor</th>
             <th>Escrita Formal</th>
             <th>Comp. Tema</th>
             <th>Coerência Textual</th>
             <th>Mec. Ling.</th>
             <th>Dir. Humanos</th>
-            <th>Média Final</th>
+            <th @click="sortByScore">Média Final</th>
         </thead>
 
         <tbody>
