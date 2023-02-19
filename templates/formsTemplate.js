@@ -3,7 +3,7 @@ const formsTemplate = `
         <h1>Registrar Redator</h1>
         
         <label for="name">Autor</label>
-        <input class="entries" id="name" v-model="authorName" autocomplete=off>
+        <input class="entries" id="name" ref="authorField" v-model="authorName" autocomplete=off>
         
         <label for="DEF">Escrita Formal</label>
         <input class="scores entries" maxlength="3" id="DEF" v-model="def">
