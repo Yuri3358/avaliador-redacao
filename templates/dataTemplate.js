@@ -8,6 +8,7 @@ const dataTemplate = `
             <th>Coerência Textual</th>
             <th>Mecanismos Linguísticos</th>
             <th>Respeito Direitos Humanos</th>
+            <th>Média Final</th>
         </thead>
 
         <tbody>
@@ -18,8 +19,8 @@ const dataTemplate = `
                 <td>{{ author.coerencia_redacao }}</td>
                 <td>{{ author.mecanismos_linguisticos }}</td>
                 <td>{{ author.direitos_humanos }}</td>
+                <td>{{ author.media_final }}</td>
             </tr>
-        
         </tbody>
     </table>
 `
