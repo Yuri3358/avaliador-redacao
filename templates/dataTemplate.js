@@ -3,11 +3,11 @@ const dataTemplate = `
     <table class="table">
         <thead>
             <th>Autor</th>
-            <th>Domínio Escrita Formal</th>
+            <th>Escrita Formal</th>
             <th>Compreensão do Tema</th>
             <th>Coerência Textual</th>
             <th>Mecanismos Linguísticos</th>
-            <th>Respeito Direitos Humanos</th>
+            <th>Direitos Humanos</th>
             <th>Média Final</th>
         </thead>
 
