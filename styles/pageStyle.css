@@ -28,10 +28,11 @@ ul, .anchors {
 
 @media (max-width: 700px) {
     header {
-        width: 7.4cm;
+        width: 11.5cm;
+        display: inline-flexbox;
     }
     ul, .anchors {
-        font-size: 12px;
+        font-size: 16px;
     }
     #brand, #author {
         float: none;

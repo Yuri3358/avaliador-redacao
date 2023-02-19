@@ -43,11 +43,12 @@
 
 @media (max-width: 700px) {
     #card-box {
-        width: 6cm;
+        width: 11.5cm;
         text-align: center;
+        display: inline-block;
     }
     #aboutme, #contacts {
-        font-size: 12px;
+        font-size: 16px;
     }
     #username {
         font-size: 18px

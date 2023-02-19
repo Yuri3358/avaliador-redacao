@@ -29,13 +29,14 @@ td {
 
 @media (max-width: 700px) {
     .table {
-        width: 7.4cm;
+        width: 11.3cm;
         height: 10cm;
+        display: inline-flexbox;
     }
     thead {
-        font-size: 10px
+        font-size: 13px
     }
     td {
-        font-size: 8px;
+        font-size: 12px;
     }
 }
