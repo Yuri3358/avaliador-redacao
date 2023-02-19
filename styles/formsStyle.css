@@ -1,0 +1,31 @@
+#form-box {
+    background-color: green;
+    color: white;
+    width: 10cm;
+    margin: auto;
+    text-align: center;
+    border: 2px ridge black;
+    box-shadow: black 2px 2px 2px;
+    
+}
+
+label {
+    font-size: 18px;
+}
+
+.entries {
+    display: flex;
+    color: black;
+    margin: auto;
+    margin-bottom: 2px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.scores {
+    width: 2cm;
+}
+
+.save {
+    margin-top: 4px;
+}
