@@ -3,24 +3,24 @@ const formsTemplate = `
         <h1>Registrar Redator</h1>
         
         <label for="name">Autor</label>
-        <input id="name" v-model="authorName">
-
-        <label for="DEF">Escrita formal</label>
-        <input id="DEF" v-model="def">
-
+        <input class="entries" id="name" v-model="authorName" autocomplete=off>
+        
+        <label for="DEF">Escrita Formal</label>
+        <input class="scores entries" maxlength="3" id="DEF" v-model="def">
+        
         <label for="CT">Compreensão do Tema</label>
-        <input type="number" max="200" id="CT" v-model="ct">
+        <input class="scores entries" maxlength="3" id="CT" v-model="ct">
         
         <label for="CR">Coerência do Texto</label>
-        <input type="number" max="200" id="CR" v-model="CR">
-
+        <input class="scores entries" maxlength="3" id="CR" v-model="cr">
+        
         <label for="ML">Mecanismos Linguísticos</label>
-        <input type="number" max="200" id="ML" v-model="ML">
-
+        <input class="scores entries" maxlength="3" id="ML" v-model="ml">
+        
         <label for="RDH">Direitos Humanos</label>
-        <input type="number" max="200" id="RDH" v-model="RDH">
-
-        <button class="save btn btn-success" @click="saveEssay">Registrar</button>
+        <input class="scores entries" maxlength="3" id="RDH" v-model="rdh">
+        
+        <button class="save btn btn-primary" @click="saveEssay">Registrar</button>
     </div>
 `
 
