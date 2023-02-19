@@ -4,7 +4,7 @@ body {
 
 header {
     background-color: rgb(0, 0, 176);
-    text-align: center;
+    text-align: center
 }
 
 ul, .anchors {
@@ -24,4 +24,16 @@ ul, .anchors {
     display: inline;
     margin-left: 1px;
     border-radius: 4px;
+}
+
+@media (max-width: 700px) {
+    header {
+        width: 7.4cm;
+    }
+    ul, .anchors {
+        font-size: 12px;
+    }
+    #brand, #author {
+        float: none;
+    }
 }
