@@ -27,6 +27,7 @@ const formsComponent = {
             })
             this.def = this.ct = this.cr = this.ml = this.rdh = 0, 
             this.authorName = ""
+            this.$refs.authorField.focus()
         }
     }
 }
