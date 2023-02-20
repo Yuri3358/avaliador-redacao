@@ -11,6 +11,10 @@ ul, .anchors {
     color: white;
 }
 
+.anchors {
+    padding: 6px;
+}
+
 #brand {
     float: left;
 }
