@@ -7,6 +7,13 @@
     border: 1px  black solid;
     padding: 2px;
 }
+
+#authors-counter {
+    border: 3px solid black;
+    font-weight: 700;
+    font-size: 40px;
+}
+
 #author-input {
     text-align: center;
     border: 3px solid black;

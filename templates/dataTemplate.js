@@ -1,5 +1,5 @@
 const dataTemplate = `
-    <h1 id="authors-header">Lista de Redatores ({{ authorsCounter }})</h1>
+    <h1 id="authors-header">Lista de Redatores <span id="authors-counter">{{ authorsCounter }}</span></h1>
     
     <div id="clear-author" @keyup.enter="deleteAuthor(selectedAuthor)">
         <input ref="clearInput" id="author-input" v-model="selectedAuthor" placeholder="Pesquise um Autor">

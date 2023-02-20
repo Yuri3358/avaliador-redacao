@@ -33,7 +33,6 @@ const dataComponent = {
         deleteAuthor(author) {
             colRef.doc(author).delete()
             .then(this.fetchAuthors())
-
             this.selectedAuthor = ""
             this.$refs.clearInput.focus()
             
