@@ -1,5 +1,11 @@
 const dataTemplate = `
-    <h1 id="authors-header">Lista de Redatores ({{ authors.length }})</h1>
+    <h1 id="authors-header">Lista de Redatores ({{ authorsCounter }})</h1>
+    
+    <div id="clear-author" @keyup.enter="deleteAuthor(selectedAuthor)">
+        <input ref="clearInput" id="author-input" v-model="selectedAuthor" placeholder="Pesquise um Autor">
+        <button class="btn btn-danger" @click="deleteAuthor(selectedAuthor)">Excluir Autor</button>    
+    </div>
+
     <table class="table">
         <thead>
             <th @click="sortByName">Autor</th>
@@ -12,8 +18,8 @@ const dataTemplate = `
         </thead>
 
         <tbody>
-            <tr v-for="author in this.authors">
-                <td>{{ author.name }}</td>
+            <tr v-for="author in this.authors.value">
+                <td>{{ author.name }} <i class="bi bi-trash" @click="deleteAuthor(author.name)"></i></td>
                 <td>{{ author.escrita_formal }}</td>
                 <td>{{ author.compreensao_tema }}</td>
                 <td>{{ author.coerencia_redacao }}</td>
