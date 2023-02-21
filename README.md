@@ -40,3 +40,7 @@ Digite o nome do autor no campo e clique em "Excluir Autor" (pressionar enter ta
 ## Tecnologias Utilizadas
 
 ![Framework Javascript utilizado para renderização dinâmica dos componentes](https://skills.thijs.gg/icons?i=vue,bootstrap,firebase,netlify&theme=light)
+
+## Direitos do Criador
+
+Você pode distribuir e modificar o projeto, desde que atribua os créditos ao criador original. Não utilizar para fins comerciais 👍 
