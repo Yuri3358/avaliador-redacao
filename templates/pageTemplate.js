@@ -1,7 +1,7 @@
 const pageTemplate = `
     <header>
         <ul>
-            <h3 id="brand">Avaliador ENEM</h3>
+            <h3 id="brand">Avaliador Online</h3>
             <p class="links">
                 <a class="btn btn-outline anchors" href="#/lista">Redatores</a>
             </p>
