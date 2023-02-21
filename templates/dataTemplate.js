@@ -10,7 +10,7 @@ const dataTemplate = `
         <thead>
             <th @click="sortByName">Autor</th>
             <th>Escrita Formal</th>
-            <th>Comp. Tema</th>
+            <th>Comp. Assunto</th>
             <th>Coerência Textual</th>
             <th>Mec. Ling.</th>
             <th>Dir. Humanos</th>
