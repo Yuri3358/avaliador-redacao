@@ -35,6 +35,13 @@
     border: 2px ridge black;
 }
 
+#table-box {
+    margin: auto;
+    overflow: auto;
+    height: 435px;
+    width: 30.4cm;
+}
+
 #authors-header {
     color: white;
 }

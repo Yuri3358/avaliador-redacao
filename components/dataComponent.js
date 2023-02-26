@@ -35,7 +35,6 @@ const dataComponent = {
             .then(this.fetchAuthors())
             this.selectedAuthor = ""
             this.$refs.clearInput.focus()
-            
         }
     }
 }
